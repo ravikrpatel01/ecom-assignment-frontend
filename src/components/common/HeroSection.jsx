@@ -83,7 +83,7 @@ const HeroSection = () => {
                   type="text"
                   value={input}
                   onChange={(e) => setInput(e.target.value)}
-                  placeholder="Search products by name & brand..."
+                  placeholder="Search products by name or brand..."
                   className="flex-1 min-w-0 block w-full px-4 py-3 border rounded-l-lg border-black focus:outline-none"
                   disabled={isSearching}
                 />
