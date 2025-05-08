@@ -59,9 +59,7 @@ const HeroSection = () => {
   if (loading) {
     return (
       <div>
-        <Navbar />
         <LoadingSpinner />
-        <Footer />
       </div>
     );
   }
