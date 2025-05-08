@@ -9,7 +9,7 @@ import SignupPage from "./pages/SignupPage";
 
 const App = () => {
   return (
-    <Router>
+    <Router basename="/">
       <Routes>
         <Route path="/" element={<Navigate to="/products" replace />} />
         <Route path="/products" element={<HomePage />} />
