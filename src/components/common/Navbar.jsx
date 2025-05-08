@@ -22,7 +22,7 @@ const Navbar = () => {
 
         <div className="hidden md:block">
           <ul className="flex space-x-6 text-lg text-white font-semibold">
-            <Link to="/home">
+            <Link to="/">
               <li className="hover:text-emerald-100 transition">Home</li>
             </Link>
             <li className="hover:text-emerald-100 transition">Shop</li>
@@ -72,7 +72,7 @@ const Navbar = () => {
       {isMenuOpen && (
         <div className="md:hidden absolute top-[80px] left-0 w-full bg-emerald-500 shadow-lg">
           <ul className="flex flex-col space-y-4 p-4 text-lg text-white font-semibold">
-            <Link to="/home" onClick={() => setIsMenuOpen(false)}>
+            <Link to="/" onClick={() => setIsMenuOpen(false)}>
               <li className="hover:text-emerald-100 transition py-2 border-b border-emerald-400">Home</li>
             </Link>
             <li className="hover:text-emerald-100 transition py-2 border-b border-emerald-400">Shop</li>
