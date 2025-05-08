@@ -9,7 +9,7 @@ const ProductDetailsCard = ({ product }) => {
   return (
     <div className="max-w-7xl mx-auto px-4 py-8 sm:px-6 lg:px-8">
       <button
-        onClick={() => navigate(location.state?.from || "/")}
+        onClick={() => navigate(location.state?.from || "/products")}
         className="flex items-center text-lg font-semibold text-black hover:text-black-100 mb-6 transition-colors cursor-pointer"
       >
         <MdOutlineKeyboardDoubleArrowLeft className="h-5 w-5 mr-2" />
